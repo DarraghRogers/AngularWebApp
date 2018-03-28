@@ -14,6 +14,7 @@ namespace AngularWebApp.Mapping
         {
             CreateMap<Make, MakeResource>();
             CreateMap<Model, ModelResource>();
+            CreateMap<Feature, FeatureResources>();
         }
     }
 }
